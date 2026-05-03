@@ -64,10 +64,3 @@ Results will appear in the `output/` folder: a scored CSV and three charts.
 
 Python, pandas, scikit-learn, matplotlib, seaborn
 
-## What I'd do next
-
-82% is solid but not perfect. The next step would be trying a Random 
-Forest model, which handles non-linear patterns better than Logistic 
-Regression and would likely push accuracy higher. I'd also look at which 
-features the model weighted most heavily and use that to inform the 
-scoring logic directly.
